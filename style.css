@@ -34,7 +34,7 @@ li a {
     text-decoration: none;/*retira sublinhado do texto*/
     margin: 15px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 630px) {
     
     ul#desktop{
         display: none;
@@ -229,7 +229,7 @@ div.bloco2-1 p{
         /* display: flex;
         justify-content: center; */
         width: 100%;
-        height: 80vh;
+        height: 70vh;
     }
 }
 
@@ -265,7 +265,7 @@ img.card-img-top {
     /* margin-top: 10px; */
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 815px) {
 
     div#bloco3{
 
@@ -278,7 +278,7 @@ img.card-img-top {
 /*Estilizando container Post*/
 section#bloco4{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
 }
 
 #bloco4-title{
@@ -351,7 +351,13 @@ a#bt-post{
         /* display: flex;
         justify-content: center; */
         width: 100%;
-        height: 170vh;
+        height: 350vh;
+    }
+
+    div.bloco4{
+        display: grid;
+        justify-content: center;
+
     }
 
     div#img-post{
@@ -366,10 +372,11 @@ a#bt-post{
 }
 
 @media screen and (max-width: 400px) {
-    div.bloco4{
-        display: grid;
-        justify-content: center;
-
+    section#bloco4 {
+        /* display: flex;
+        justify-content: center; */
+        width: 100%;
+        height: 170vh;
     }
 }
 
